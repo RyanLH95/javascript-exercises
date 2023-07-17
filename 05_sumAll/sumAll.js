@@ -15,7 +15,7 @@ const sumAll = function(num1, num2) {
   } else if ((biggerValue >= 0) && (smallerValue >= 0)) {
       for (let i = smallerValue; i <= biggerValue; i++) {
           finalSum = finalSum + i;
-          console.log(finalSum);
+          //console.log(finalSum);
         }
     } else return error;
     return finalSum;
